@@ -1,60 +1,7 @@
 # AnimateX
 
 <div align="center">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="200" height="200">
-    <!-- Definitions for gradients and effects -->
-    <defs>
-      <!-- Logo Background Gradient -->
-      <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#0A1128" />
-        <stop offset="100%" stop-color="#1C3879" />
-      </linearGradient>
-      
-      <!-- Logo Gradient -->
-      <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#FF6B6B" />
-        <stop offset="100%" stop-color="#FF9E80" />
-      </linearGradient>
-      
-      <!-- Accent Gradient for Animation Effect -->
-      <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#4ED8E0" />
-        <stop offset="50%" stop-color="#A47CF4" />
-        <stop offset="100%" stop-color="#FF6B6B" />
-      </linearGradient>
-      
-      <!-- Glow Effect -->
-      <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-        <feGaussianBlur stdDeviation="6" result="blur" />
-        <feComposite in="SourceGraphic" in2="blur" operator="over" />
-      </filter>
-    </defs>
-    
-    <!-- Background Circle -->
-    <circle cx="200" cy="200" r="200" fill="url(#bgGradient)" />
-    
-    <!-- Animation Wave Effect -->
-    <path d="M50,200 C100,150 150,250 200,180 S300,220 350,180" 
-          stroke="url(#accentGradient)" stroke-width="4" fill="none" opacity="0.5" />
-    
-    <!-- Main Logo -->
-    <g transform="translate(100, 200)" filter="url(#glow)">
-      <!-- The letter "A" -->
-      <path d="M0,0 L40,-80 L80,0 L60,0 L40,-40 L20,0 Z" fill="url(#logoGradient)" />
-      
-      <!-- The letter "X" -->
-      <path d="M90,-80 L130,-40 L170,-80 L190,-80 L140,-20 L190,40 L170,40 L130,0 L90,40 L70,40 L120,-20 L70,-80 Z" fill="url(#logoGradient)" />
-    </g>
-    
-    <!-- Digital Particles -->
-    <g opacity="0.6">
-      <circle cx="100" cy="100" r="2" fill="#FFFFFF" />
-      <circle cx="300" cy="120" r="3" fill="#FFFFFF" />
-      <circle cx="250" cy="80" r="2" fill="#FFFFFF" />
-      <circle cx="150" cy="300" r="2" fill="#FFFFFF" />
-      <circle cx="320" cy="280" r="3" fill="#FFFFFF" />
-    </g>
-  </svg>
+  <img src="./assets/logo.svg" alt="AnimateX Logo" width="200" height="200" />
 
   <p align="center">
     <a href="https://www.animatex.xyz/">Website</a> •
