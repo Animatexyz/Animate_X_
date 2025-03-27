@@ -1,0 +1,16 @@
+[user]
+    name = AnimateX
+    email = 19@magicvial.co
+[alias]
+    br = branch
+    co = checkout
+    cm = commit -am
+    df = diff
+    st = status
+    pl = pull
+    ps = push
+    cob = checkout -b
+[log]
+    date = iso
+[init]
+    defaultBranch = main 

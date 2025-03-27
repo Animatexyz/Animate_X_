@@ -1,0 +1,18 @@
+{
+  "server": {
+    "port": 8080,
+    "host": "0.0.0.0"
+  },
+  "model": {
+    "path": "./models/production",
+    "batchSize": 1,
+    "precision": "float32"
+  },
+  "storage": {
+    "type": "local",
+    "basePath": "./storage"
+  },
+  "logging": {
+    "level": "info"
+  }
+} 

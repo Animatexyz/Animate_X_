@@ -1,0 +1,14 @@
+{
+  "name": "animatex",
+  "version": "1.0.1",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnimateXxyz/-AnimateX"
+  },
+  "homepage": "https://www.animatex.xyz",
+  "author": {
+    "name": "AnimateX",
+    "email": "19@magicvial.co"
+  }
+} 
