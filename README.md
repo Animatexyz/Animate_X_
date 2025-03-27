@@ -95,6 +95,4 @@ npm run dev
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Contact
-
-Project Link: [https://github.com/Animatexyz/Animate_X_](https://github.com/Animatexyz/Animate_X_) 
+## Contact 
